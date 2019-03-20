@@ -4,8 +4,6 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-List all cleaning needs for this file, the programs required for it (open refine is fine to use), and the amount of time you expect to spend on that process for the file.
-You should also include any statements about hand coding or hand edits you'll need to do to the file. This section can be very narrative and doesn't need to be completely structured, but it should be thorough.
 
 I got this U.S. Survey and Census dataset from Social Explorer. There's five years worth of data, from 2012 to 2017. Although there aren't duplication of records or missing data, it added a lot of unneccessary and blank columns when I downloaded it as a csv file. I'll have to remove those columns, like FIPS, Geographic Identifier, etc. There are at 30 of these blank columns. Also, I'm interested in the percentage breakdown which is provided by the dataset, but I'll have to remove those columns with the values, and not percentages as the values are given along with the percentage columns. I suppose I can ignore them and only reference or call the columns I need for merging into my file csv file, but that is not efficient. I'm thinking it's going to take half an hour for me to remove the data I don't need via Python. If I do it manually, it will take about half that time. 
 
